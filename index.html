@@ -36,30 +36,35 @@
   <div class="fixed inset-0 gridbg pointer-events-none opacity-40"></div>
 
   <!-- Шапка сайта -->
-  <header class="sticky top-0 z-50 border-b border-white/10 bg-slate-950/80 backdrop-blur-xl">
-    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+  <!-- Шапка сайта -->
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-slate-950/90 backdrop-blur-xl">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
       
-      <!-- Логотип + Название -->
-      <a href="#" class="flex items-center gap-3 hover:opacity-90 transition">
-        <div class="h-11 w-11 overflow-hidden rounded-full border border-brand/30 bg-white p-0.5 shadow-md">
-          <img src="assets/img/portfolio/favicons/logo.jpeg" alt="Сборка мебели Москва" class="h-full w-full object-contain" />robe.png'" />
+      <!-- Новый крупный горизонтальный логотип -->
+      <a href="#" class="flex items-center gap-4 hover:opacity-95 transition group">
+        <!-- Блок для картинки-логотипа: сделали шире (w-28) и убрали круглую обрезку -->
+        <div class="h-12 w-28 overflow-hidden rounded-lg border border-white/10 bg-slate-900/50 p-1 flex items-center justify-center">
+          <img src="assets/img/portfolio/favicons/logo.jpeg" alt="МастерСборка" class="h-full w-full object-contain" />
         </div>
-        <div>
-          <div class="text-[10px] uppercase tracking-[0.25em] text-brand font-bold">Moscow assembly service</div>
-          <div class="text-base sm:text-lg font-bold leading-tight text-white">Сборка корпусной мебели</div>
+        <!-- Текстовый блок: увеличили шрифты для солидности -->
+        <div class="hidden xs:block border-l border-white/10 pl-4">
+          <div class="text-xs uppercase tracking-[0.2em] text-brand font-black">Moscow Service</div>
+          <div class="text-lg font-extrabold tracking-tight text-white leading-none mt-0.5">СБОРКА МЕБЕЛИ</div>
         </div>
       </a>
 
-      <div class="hidden md:flex gap-4">
-        <a href="#services" class="text-sm font-medium hover:text-brand transition">Услуги</a>
-        <a href="#works" class="text-sm font-medium hover:text-brand transition">Примеры работ</a>
-        <a href="#reviews" class="text-sm font-medium hover:text-brand transition">Отзывы</a>
+      <!-- Меню (для десктопа) -->
+      <div class="hidden md:flex gap-6">
+        <a href="#services" class="text-sm font-semibold hover:text-brand transition text-slate-300">Услуги</a>
+        <a href="#works" class="text-sm font-semibold hover:text-brand transition text-slate-300">Примеры работ</a>
+        <a href="#reviews" class="text-sm font-semibold hover:text-brand transition text-slate-300">Отзывы</a>
       </div>
 
+      <!-- Кнопка -->
       <div>
-        <a href="#order" class="whitespace-nowrap rounded-xl bg-brand px-3 py-2 text-xs font-bold text-slate-950 hover:bg-brand-hover transition shadow-lg shadow-brand/20 sm:px-4 sm:py-2.5 sm:text-sm">
-    Вызвать мастера
-       </a>
+        <a href="#order" class="whitespace-nowrap rounded-xl bg-brand px-4 py-2.5 text-xs font-black uppercase tracking-wider text-slate-950 hover:bg-brand-hover transition shadow-lg shadow-brand/25 sm:px-5 sm:text-sm">
+          Вызвать мастера
+        </a>
       </div>
     </div>
   </header>
