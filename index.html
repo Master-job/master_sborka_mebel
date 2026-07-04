@@ -3,419 +3,79 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Профессиональная сборка мебели в Москве | Без кухонь</title>
-  <meta name="description" content="Сборка корпусной мебели в Москве: шкафы, кровати, комоды. Фиксированная цена по фото, выезд в день обращения. Работаем без выходных." />
-  <meta name="theme-color" content="#070b14" />
-
-  <!-- Open Graph — превью при шаринге в WhatsApp / Telegram / соцсетях -->
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Сборка мебели в Москве" />
-  <meta property="og:title" content="Профессиональная сборка мебели в Москве | Без кухонь" />
-  <meta property="og:description" content="Сборка корпусной мебели в Москве: шкафы, кровати, комоды. Фиксированная цена по фото, выезд в день обращения." />
-  <meta property="og:image" content="https://ТВОЙ-ДОМЕН/assets/img/og-preview.jpg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:url" content="https://ТВОЙ-ДОМЕН/" />
-  <meta property="og:locale" content="ru_RU" />
-
-  <!-- Twitter Card — на случай шаринга в X -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Профессиональная сборка мебели в Москве" />
-  <meta name="twitter:description" content="Фиксированная цена по фото, выезд в день обращения. Без кухонь." />
-  <meta name="twitter:image" content="https://ТВОЙ-ДОМЕН/assets/img/og-preview.jpg" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            brand: {
-              DEFAULT: '#f97316',
-              hover: '#ea580c'
-            }
-          }
-        }
-      }
-    }
-  </script>
-  <link rel="stylesheet" href="assets/css/style.css">
-
-  <!-- Schema.org для локального бизнеса — помогает с расширенным сниппетом в поиске -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Сборка мебели в Москве",
-    "description": "Профессиональная сборка корпусной мебели: шкафы, кровати, комоды. Фиксированная цена по фото.",
-    "areaServed": {
-      "@type": "City",
-      "name": "Москва"
-    },
-    "telephone": "+7-ТВОЙ-НОМЕР",
-    "priceRange": "от 800 ₽",
-    "openingHours": "Mo-Su 09:00-21:00"
-  }
-  </script>
+  <title>Сборка мебели в Москве</title>
+  <meta name="description" content="Профессиональная сборка мебели в Москве. Передача заявки специалисту для связи и уточнения деталей." />
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body class="bg-slate-950 text-slate-200">
-
-  <header class="sticky top-0 z-50 border-b border-white/10 bg-slate-950/90 backdrop-blur-xl">
-    <div class="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:px-6 lg:px-8">
-      <div class="text-white font-black tracking-widest">СБОРКА МЕБЕЛИ</div>
-      <div class="flex items-center gap-2 sm:gap-3">
-        <a href="tel:+7ТВОЙНОМЕР" class="hidden sm:inline-flex items-center gap-2 rounded-xl border border-white/10 px-4 py-2 text-sm font-bold text-slate-200 hover:border-brand/50 hover:text-brand transition">
-          +7 (___) ___-__-__
-        </a>
-        <a href="https://wa.me/7ТВОЙНОМЕР" target="_blank" class="hidden sm:inline-flex items-center justify-center rounded-xl border border-white/10 p-2.5 text-slate-200 hover:border-brand/50 hover:text-brand transition" aria-label="WhatsApp">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.96L2 22l5.25-1.38a9.9 9.9 0 0 0 4.78 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.13a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.22 8.22 0 1 1 15.28-4.36 8.24 8.24 0 0 1-8.3 8.22zm4.51-6.16c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.78.97-.15.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.15.16-.25.25-.42.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43-.14-.01-.31-.01-.48-.01-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.08 0 1.23.89 2.42 1.02 2.59.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.23-.17-.48-.29z"/></svg>
-        </a>
-        <a href="https://t.me/ТВОЙ_БОТ" target="_blank" class="rounded-xl bg-brand px-4 py-2 text-sm font-black text-slate-950 hover:bg-brand-hover transition">
-          Узнать стоимость
-        </a>
-      </div>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <div class="logo">Сборка мебели</div>
+      <a class="phone" href="tel:+79999999999">+7 (999) 999-99-99</a>
     </div>
   </header>
 
   <main>
-    <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-20">
-      <div class="grid items-center gap-10 lg:grid-cols-2">
-        <div>
-          <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
-            Профессиональная сборка мебели <br /><span class="text-brand">в Москве</span>
-          </h1>
-          <p class="mt-6 text-xl font-bold text-slate-100 sm:text-2xl">
-            Собираем шкафы, кровати и комоды быстро, аккуратно и по фиксированной цене.
-          </p>
-          <p class="mt-4 text-base text-slate-400 sm:text-lg">
-            Специализируемся только на корпусной мебели. Никаких кухонь — работаем чисто, тихо и без пыльных распилов.
-          </p>
-          <div class="mt-8 flex flex-col sm:flex-row gap-4">
-            <a href="https://t.me/ТВОЙ_БОТ" target="_blank" class="rounded-2xl bg-brand px-8 py-4 text-center text-base font-bold text-slate-950 hover:bg-brand-hover transition">
-              Рассчитать по фото в Telegram
-            </a>
-          </div>
-        </div>
-
-        <div class="rounded-3xl border border-white/10 bg-white/5 p-6 sm:p-8">
-          <div class="text-xs font-black uppercase tracking-widest text-sky-400">Экспресс-расчёт</div>
-          <h3 class="mt-2 text-xl font-bold text-white">Что нужно собрать?</h3>
-          <p class="mt-1 text-sm text-slate-400">Тапни тип мебели — увидишь ориентир по цене.</p>
-
-          <div class="mt-6 grid grid-cols-2 gap-3">
-            <button type="button" data-price="800" data-label="Тумба / комод" class="calc-btn rounded-xl border border-white/10 bg-slate-900/50 px-4 py-3 text-left text-sm font-bold text-slate-200 transition hover:border-brand/50">
-              Тумба / комод
-            </button>
-            <button type="button" data-price="1500" data-label="Кровать" class="calc-btn rounded-xl border border-white/10 bg-slate-900/50 px-4 py-3 text-left text-sm font-bold text-slate-200 transition hover:border-brand/50">
-              Кровать
-            </button>
-            <button type="button" data-price="3500" data-label="Шкаф-купе" class="calc-btn rounded-xl border border-white/10 bg-slate-900/50 px-4 py-3 text-left text-sm font-bold text-slate-200 transition hover:border-brand/50">
-              Шкаф-купе
-            </button>
-            <button type="button" data-price="5000" data-label="Гардеробная" class="calc-btn rounded-xl border border-white/10 bg-slate-900/50 px-4 py-3 text-left text-sm font-bold text-slate-200 transition hover:border-brand/50">
-              Гардеробная
-            </button>
-          </div>
-
-          <div id="calc-result" class="mt-6 rounded-2xl bg-slate-900/60 p-5 text-center">
-            <div class="text-sm text-slate-400">Выберите тип мебели выше</div>
-          </div>
-
-          <a href="https://t.me/ТВОЙ_БОТ" target="_blank" class="mt-5 block w-full rounded-xl bg-brand py-4 text-center font-black text-slate-950 transition hover:bg-brand-hover">
-            Отправить фото — узнать точную цену
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="border-y border-white/5 bg-slate-950/40 py-12">
-      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div class="grid gap-4 grid-cols-2 lg:grid-cols-5">
-          <div class="rounded-2xl border border-white/10 bg-white/5 p-4 text-center">
-            <div class="text-xl font-bold text-white">Точная цена</div>
-            <div class="mt-1 text-sm text-slate-400">Называем до выезда мастера</div>
-          </div>
-          <div class="rounded-2xl border border-white/10 bg-white/5 p-4 text-center">
-            <div class="text-xl font-bold text-white">Свой инструмент</div>
-            <div class="mt-1 text-sm text-slate-400">Профессиональный арсенал</div>
-          </div>
-          <div class="rounded-2xl border border-white/10 bg-white/5 p-4 text-center">
-            <div class="text-xl font-bold text-white">Гарантия</div>
-            <div class="mt-1 text-sm text-slate-400">Ответственность за детали</div>
-          </div>
-          <div class="rounded-2xl border border-white/10 bg-white/5 p-4 text-center">
-            <div class="text-xl font-bold text-white">Чистота</div>
-            <div class="mt-1 text-sm text-slate-400">Убираем за собой упаковку</div>
-          </div>
-          <div class="rounded-2xl border border-white/10 bg-white/5 p-4 text-center">
-            <div class="text-xl font-bold text-brand">Срочно</div>
-            <div class="mt-1 text-sm text-slate-400">Выезд в день обращения</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-      <div class="text-center">
-        <h2 class="text-3xl font-extrabold text-white sm:text-4xl">Что мы собираем</h2>
-      </div>
-      <div class="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-        <div class="rounded-2xl border border-white/10 bg-white/5 p-5 text-lg font-bold text-white">Шкафы-купе и распашные</div>
-        <div class="rounded-2xl border border-white/10 bg-white/5 p-5 text-lg font-bold text-white">Кровати (с подъемным механизмом)</div>
-        <div class="rounded-2xl border border-white/10 bg-white/5 p-5 text-lg font-bold text-white">Комоды и тумбы</div>
-        <div class="rounded-2xl border border-white/10 bg-white/5 p-5 text-lg font-bold text-white">Гардеробные системы</div>
-        <div class="rounded-2xl border border-white/10 bg-white/5 p-5 text-lg font-bold text-white">Офисная мебель</div>
-        <div class="rounded-2xl border border-white/10 bg-white/5 p-5 text-lg font-bold text-brand">Мебель от ведущих брендов</div>
-      </div>
-      
-      <div class="mt-8 text-center text-slate-400">
-        <p>IKEA, Hoff, Леруа Мерлен, Шатура, Лазурит, Ангстрем и другие.</p>
-      </div>
-    </section>
-
-    <!-- ЦЕНЫ -->
-    <section class="border-y border-white/5 bg-slate-950/40 py-16">
-      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div class="text-center">
-          <h2 class="text-3xl font-extrabold text-white sm:text-4xl">Сколько это стоит</h2>
-          <p class="mt-3 text-slate-400">Ориентир по цене. Точную сумму называем после фото — она не меняется на месте.</p>
-        </div>
-        <div class="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
-            <div class="text-sm font-bold uppercase tracking-wide text-slate-400">Тумба / комод</div>
-            <div class="mt-3 text-3xl font-black text-white">от 800 ₽</div>
-          </div>
-          <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
-            <div class="text-sm font-bold uppercase tracking-wide text-slate-400">Кровать</div>
-            <div class="mt-3 text-3xl font-black text-white">от 1&nbsp;500 ₽</div>
-          </div>
-          <div class="rounded-2xl border-2 border-brand/40 bg-brand/5 p-6">
-            <div class="text-sm font-bold uppercase tracking-wide text-brand">Шкаф-купе</div>
-            <div class="mt-3 text-3xl font-black text-white">от 3&nbsp;500 ₽</div>
-          </div>
-          <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
-            <div class="text-sm font-bold uppercase tracking-wide text-slate-400">Гардеробная</div>
-            <div class="mt-3 text-3xl font-black text-white">от 5&nbsp;000 ₽</div>
-          </div>
-        </div>
-        <p class="mt-6 text-center text-sm text-slate-500">Финальная цена зависит от сложности и комплектации — пришлите фото в Telegram, посчитаем точно за 5–10 минут.</p>
-
-        <details class="mt-10 rounded-2xl border border-white/10 bg-white/5 open:pb-6">
-          <summary class="cursor-pointer select-none px-6 py-4 font-bold text-white">
-            Полный прайс-лист по позициям
-          </summary>
-          <div class="px-6">
-            <div class="divide-y divide-white/5 border-t border-white/5">
-              <div class="flex items-center justify-between py-3"><span class="text-slate-300">Сборка стула / табурета</span><span class="font-bold text-white">от 300 ₽</span></div>
-              <div class="flex items-center justify-between py-3"><span class="text-slate-300">Сборка полки открытой</span><span class="font-bold text-white">от 350 ₽</span></div>
-              <div class="flex items-center justify-between py-3"><span class="text-slate-300">Сборка табурета / банкетки</span><span class="font-bold text-white">от 500 ₽</span></div>
-              <div class="flex items-center justify-between py-3"><span class="text-slate-300">Сборка тумбы прикроватной</span><span class="font-bold text-white">от 800 ₽</span></div>
-              <div class="flex items-center justify-between py-3"><span class="text-slate-300">Сборка письменного / компьютерного стола</span><span class="font-bold text-white">от 900 ₽</span></div>
-              <div class="flex items-center justify-between py-3"><span class="text-slate-300">Сборка распашного шкафа (1 дверь)</span><span class="font-bold text-white">от 990 ₽</span></div>
-              <div class="flex items-center justify-between py-3"><span class="text-slate-300">Сборка комода (2–3 ящика)</span><span class="font-bold text-white">от 1&nbsp;390 ₽</span></div>
-              <div class="flex items-center justify-between py-3"><span class="text-slate-300">Сборка кровати односпальной</span><span class="font-bold text-white">от 1&nbsp;500 ₽</span></div>
-              <div class="flex items-center justify-between py-3"><span class="text-slate-300">Сборка распашного шкафа (2–3 двери)</span><span class="font-bold text-white">от 1&nbsp;500 ₽</span></div>
-              <div class="flex items-center justify-between py-3"><span class="text-slate-300">Сборка кровати с подъёмным механизмом</span><span class="font-bold text-white">от 2&nbsp;000 ₽</span></div>
-              <div class="flex items-center justify-between py-3"><span class="text-slate-300">Сборка шкафа-купе (2 двери)</span><span class="font-bold text-white">от 3&nbsp;500 ₽</span></div>
-              <div class="flex items-center justify-between py-3"><span class="text-slate-300">Сборка встроенного шкафа-купе</span><span class="font-bold text-white">от 4&nbsp;000 ₽</span></div>
-              <div class="flex items-center justify-between py-3"><span class="text-slate-300">Сборка гардеробной системы</span><span class="font-bold text-white">от 5&nbsp;000 ₽</span></div>
-              <div class="flex items-center justify-between py-3"><span class="text-slate-300">Разборка мебели (любая, за предмет)</span><span class="font-bold text-white">от 500 ₽</span></div>
-            </div>
-            <p class="mt-4 text-xs text-slate-500">Позиции нет в списке? Пришлите фото в Telegram — назовём цену за 5–10 минут.</p>
-          </div>
-        </details>
-      </div>
-    </section>
-
-    <section class="bg-slate-950/40 border-y border-white/5 py-16">
-      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div class="text-center">
-          <h2 class="text-3xl font-extrabold text-white sm:text-4xl">Как мы работаем</h2>
-        </div>
-        <div class="mt-12 grid gap-8 md:grid-cols-4">
-          <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
-            <div class="font-black text-2xl text-white/25">01</div>
-            <h3 class="mt-3 text-xl font-bold text-white">Оставляете заявку</h3>
-            <p class="mt-3 text-slate-300">Вы присылаете нам фото мебели, схему сборки или ссылку на магазин.</p>
-          </div>
-          <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
-            <div class="font-black text-2xl text-white/25">02</div>
-            <h3 class="mt-3 text-xl font-bold text-white">Фиксируем цену</h3>
-            <p class="mt-3 text-slate-300">Мы оцениваем объем работ и называем точную сумму в течение 5-10 минут.</p>
-          </div>
-          <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
-            <div class="font-black text-2xl text-white/25">03</div>
-            <h3 class="mt-3 text-xl font-bold text-white">Приезд мастера</h3>
-            <p class="mt-3 text-slate-300">Наш специалист приезжает в назначенное время со своим инструментом.</p>
-          </div>
-          <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
-            <div class="font-black text-2xl text-white/25">04</div>
-            <h3 class="mt-3 text-xl font-bold text-white">Приемка и оплата</h3>
-            <p class="mt-3 text-slate-300">Вы проверяете качество сборки и только после этого оплачиваете услугу.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ПОРТФОЛИО -->
-    <section class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-      <div class="text-center">
-        <h2 class="text-3xl font-extrabold text-white sm:text-4xl">Наши работы</h2>
-        <p class="mt-3 text-slate-400">Реальные объекты, собранные нашими мастерами в Москве.</p>
-      </div>
-      <div class="mt-12 grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-        <div class="group overflow-hidden rounded-2xl border border-white/10 bg-white/5 aspect-square">
-          <img src="assets/img/portfolio/work-01.jpg" alt="Собранный шкаф-купе" class="h-full w-full object-cover transition duration-500 group-hover:scale-110" onerror="this.src='https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=600&q=70'" loading="lazy" />
-        </div>
-        <div class="group overflow-hidden rounded-2xl border border-white/10 bg-white/5 aspect-square">
-          <img src="assets/img/portfolio/work-02.jpg" alt="Собранная кровать с подъемным механизмом" class="h-full w-full object-cover transition duration-500 group-hover:scale-110" onerror="this.src='https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=600&q=70'" loading="lazy" />
-        </div>
-        <div class="group overflow-hidden rounded-2xl border border-white/10 bg-white/5 aspect-square">
-          <img src="assets/img/portfolio/work-03.jpg" alt="Собранная гардеробная система" class="h-full w-full object-cover transition duration-500 group-hover:scale-110" onerror="this.src='https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=600&q=70'" loading="lazy" />
-        </div>
-        <div class="group overflow-hidden rounded-2xl border border-white/10 bg-white/5 aspect-square">
-          <img src="assets/img/portfolio/work-04.jpg" alt="Собранный комод" class="h-full w-full object-cover transition duration-500 group-hover:scale-110" onerror="this.src='https://images.unsplash.com/photo-1595515106864-084e2c9a3e70?auto=format&fit=crop&w=600&q=70'" loading="lazy" />
-        </div>
-        <div class="group overflow-hidden rounded-2xl border border-white/10 bg-white/5 aspect-square">
-          <img src="assets/img/portfolio/work-05.jpg" alt="Собранная офисная мебель" class="h-full w-full object-cover transition duration-500 group-hover:scale-110" onerror="this.src='https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=600&q=70'" loading="lazy" />
-        </div>
-        <div class="group overflow-hidden rounded-2xl border border-white/10 bg-white/5 aspect-square">
-          <img src="assets/img/portfolio/work-06.jpg" alt="Собранный распашной шкаф" class="h-full w-full object-cover transition duration-500 group-hover:scale-110" onerror="this.src='https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=600&q=70'" loading="lazy" />
-        </div>
-        <div class="group overflow-hidden rounded-2xl border border-white/10 bg-white/5 aspect-square">
-          <img src="assets/img/portfolio/work-07.jpg" alt="Собранная тумба под ТВ" class="h-full w-full object-cover transition duration-500 group-hover:scale-110" onerror="this.src='https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=600&q=70'" loading="lazy" />
-        </div>
-        <div class="group overflow-hidden rounded-2xl border border-white/10 bg-white/5 aspect-square">
-          <img src="assets/img/portfolio/work-08.jpg" alt="Собранная мебель IKEA" class="h-full w-full object-cover transition duration-500 group-hover:scale-110" onerror="this.src='https://images.unsplash.com/photo-1616486788371-62d930495c44?auto=format&fit=crop&w=600&q=70'" loading="lazy" />
-        </div>
-      </div>
-      <p class="mt-4 text-center text-xs text-slate-500">Замени фото в /assets/img/portfolio/ на свои реальные — сейчас показаны временные заглушки.</p>
-    </section>
-
-    <!-- ОТЗЫВЫ -->
-    <section class="border-y border-white/5 bg-slate-950/40 py-16">
-      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div class="text-center">
-          <h2 class="text-3xl font-extrabold text-white sm:text-4xl">Отзывы клиентов</h2>
-        </div>
-        <div class="mt-12 grid gap-6 md:grid-cols-3">
-          <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
-            <div class="flex gap-1 text-brand" aria-hidden="true">★★★★★</div>
-            <p class="mt-4 text-slate-300">«Собрали шкаф-купе за два часа, ровно как и договаривались по цене. Мусор весь забрали с собой, ничего не поцарапали.»</p>
-            <div class="mt-5 text-sm font-bold text-white">Отзыв клиента</div>
-            <div class="text-sm text-slate-500">Район Москвы · Шкаф-купе</div>
-          </div>
-          <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
-            <div class="flex gap-1 text-brand" aria-hidden="true">★★★★★</div>
-            <p class="mt-4 text-slate-300">«Заказывала кровать с подъемным механизмом из Hoff. Мастер приехал вовремя, всё собрал аккуратно, механизм проверили при мне.»</p>
-            <div class="mt-5 text-sm font-bold text-white">Отзыв клиента</div>
-            <div class="text-sm text-slate-500">Район Москвы · Кровать</div>
-          </div>
-          <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
-            <div class="flex gap-1 text-brand" aria-hidden="true">★★★★★</div>
-            <p class="mt-4 text-slate-300">«Приехали в тот же день, как и обещали на сайте. Цена не изменилась ни на рубль после того, что назвали по фото.»</p>
-            <div class="mt-5 text-sm font-bold text-white">Отзыв клиента</div>
-            <div class="text-sm text-slate-500">Район Москвы · Гардеробная</div>
-          </div>
-        </div>
-        <p class="mt-4 text-center text-xs text-slate-500">Замени тексты и имена на реальные отзывы своих клиентов.</p>
-      </div>
-    </section>
-
-    <!-- ГАРАНТИЯ И ЗОНА ВЫЕЗДА -->
-    <section class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-      <div class="grid gap-6 md:grid-cols-2">
-        <div class="rounded-3xl border border-white/10 bg-white/5 p-8">
-          <h3 class="text-2xl font-extrabold text-white">Гарантия на сборку</h3>
-          <ul class="mt-5 space-y-3 text-slate-300">
-            <li class="flex gap-3"><span class="text-emerald-400">✓</span> 12 месяцев гарантии на все выполненные работы</li>
-            <li class="flex gap-3"><span class="text-emerald-400">✓</span> Если деталь повредили при сборке — заменяем за свой счёт</li>
-            <li class="flex gap-3"><span class="text-emerald-400">✓</span> Если что-то разболталось после сборки — бесплатно подтянем в течение гарантийного срока</li>
-          </ul>
-        </div>
-        <div class="rounded-3xl border border-white/10 bg-white/5 p-8">
-          <h3 class="text-2xl font-extrabold text-white">Зона выезда</h3>
-          <p class="mt-4 text-slate-300">Работаем по всей Москве в пределах МКАД и ближнему Подмосковью (до 15 км от МКАД).</p>
-          <p class="mt-3 text-slate-400 text-sm">Если ваш адрес дальше — напишите в бота, обычно тоже можем приехать, стоимость выезда уточним отдельно.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-      <div class="grid gap-10 lg:grid-cols-2">
-        <div>
-          <h2 class="text-3xl font-extrabold text-white sm:text-4xl">Частые вопросы</h2>
-          <div class="mt-8 space-y-4">
-            <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
-              <div class="font-bold text-white">А цена не изменится на месте?</div>
-              <div class="mt-2 text-slate-300">Нет, если вы прислали точное фото, чертеж и размеры, названная цена является финальной.</div>
-            </div>
-            <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
-              <div class="font-bold text-white">Вы убираете мусор за собой?</div>
-              <div class="mt-2 text-slate-300">Да, мы аккуратно складываем весь упаковочный картон, пенопласт и пленку.</div>
-            </div>
-            <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
-              <div class="font-bold text-white">Нужно ли мне давать мастеру инструмент?</div>
-              <div class="mt-2 text-slate-300">Нет, у наших специалистов с собой весь необходимый профессиональный инструмент.</div>
-            </div>
-            <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
-              <div class="font-bold text-white">Можно ли заказать мастера на выходной день?</div>
-              <div class="mt-2 text-slate-300">Да, мы работаем без выходных.</div>
-            </div>
-          </div>
-        </div>
-
-        <div id="order" class="rounded-3xl border-2 border-brand/20 bg-white/5 p-6 sm:p-10 flex flex-col justify-center">
-          <span class="inline-block self-start rounded-full bg-brand/10 px-4 py-1.5 text-sm font-bold text-brand">Оценка за 5 минут</span>
-          <h2 class="mt-4 text-3xl font-extrabold text-white sm:text-4xl">Узнайте точную стоимость сборки</h2>
-          <p class="mt-4 text-lg text-slate-300">
-            Перейдите в нашего Telegram-бота, отправьте фото или ссылку на мебель, и мы сразу назовем цену. 
-          </p>
-          <p class="mt-2 text-slate-400">
-            Без долгих звонков и скрытых наценок.
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <div class="hero__badge">Профессиональная сборка мебели в Москве</div>
+          <h1>Сборка мебели<br>без лишних хлопот</h1>
+          <p class="hero__text">
+            Передаём заявку специалисту, чтобы он связался с вами и уточнил детали.
           </p>
 
-          <div class="mt-10">
-            <a href="https://t.me/ТВОЙ_БОТ" target="_blank" class="block w-full rounded-xl bg-brand py-5 text-center font-black text-slate-950 text-lg hover:bg-brand-hover transition shadow-lg shadow-brand/20">
-              Рассчитать стоимость в Telegram
-            </a>
+          <div class="hero__actions">
+            <a href="#form" class="btn btn--primary">Оставить заявку</a>
+            <a href="tel:+79999999999" class="btn btn--secondary">Позвонить</a>
           </div>
+
+          <div class="hero__disclaimer">
+            Отправляя заявку, вы соглашаетесь на обработку данных и передачу их специалисту для связи.
+          </div>
+        </div>
+
+        <div class="panel">
+          <h2>Почему удобно</h2>
+          <div class="grid">
+            <div class="card">
+              <h3>Быстрая передача заявки</h3>
+              <p>Заявка уходит специалисту без лишних шагов.</p>
+            </div>
+            <div class="card">
+              <h3>Связь для уточнения деталей</h3>
+              <p>Мастер связывается и согласует условия напрямую.</p>
+            </div>
+            <div class="card">
+              <h3>Понятный процесс</h3>
+              <p>Без сложных формулировок и длинных сценариев.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container panel">
+        <h2>Оставить заявку</h2>
+        <form class="form" id="form">
+          <input class="input" type="text" name="name" placeholder="Ваше имя" />
+          <input class="input" type="tel" name="phone" placeholder="Телефон" />
+          <button class="btn btn--primary" type="submit">Отправить</button>
+        </form>
+
+        <div class="legal-note">
+          <p>Отправляя заявку, вы соглашаетесь на обработку данных и передачу их специалисту для связи.</p>
+          <p>Сайт принимает заявки и передаёт их специалистам для связи с клиентом.</p>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="border-t border-white/10 bg-slate-950 py-8 text-sm text-slate-500 pb-24 sm:pb-8">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between gap-4 items-center">
-      <div>© 2026 • Профессиональная сборка мебели в Москве</div>
-      <div class="text-slate-400">Быстро. Аккуратно. С гарантией.</div>
+  <footer class="footer">
+    <div class="container">
+      Сайт принимает заявки и передаёт их специалистам для связи с клиентом.
     </div>
   </footer>
-
-  <!-- Плавающая панель связи для мобильных -->
-  <div class="fixed inset-x-0 bottom-0 z-50 flex gap-2 border-t border-white/10 bg-slate-950/95 p-3 backdrop-blur-xl sm:hidden">
-    <a href="tel:+7ТВОЙНОМЕР" class="flex flex-1 items-center justify-center rounded-xl border border-white/15 py-3 text-sm font-bold text-white">
-      Позвонить
-    </a>
-    <a href="https://t.me/ТВОЙ_БОТ" target="_blank" class="flex flex-[1.4] items-center justify-center rounded-xl bg-brand py-3 text-sm font-black text-slate-950">
-      Узнать стоимость
-    </a>
-  </div>
-  <script>
-    document.querySelectorAll('.calc-btn').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        document.querySelectorAll('.calc-btn').forEach(function (b) {
-          b.classList.remove('border-brand', 'bg-brand/10', 'text-brand');
-        });
-        btn.classList.add('border-brand', 'bg-brand/10', 'text-brand');
-
-        var price = Number(btn.dataset.price).toLocaleString('ru-RU');
-        var label = btn.dataset.label;
-        document.getElementById('calc-result').innerHTML =
-          '<div class="text-sm text-slate-400">' + label + '</div>' +
-          '<div class="mt-1 text-3xl font-black text-white">от ' + price + ' \u20BD</div>' +
-          '<div class="mt-1 text-xs text-slate-500">Точная цена — по фото в Telegram</div>';
-      });
-    });
-  </script>
 </body>
 </html>
